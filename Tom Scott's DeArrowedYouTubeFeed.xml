@@ -12,7 +12,6 @@
   <entry>
     <title>Taking a break and ending weekly uploads</title>
     <link rel="alternate" href="https://www.youtube.com/watch?v=7DKv5H5Frt0" />
-    <link rel="enclosure" type="image/webp" href="https://dearrow-thumb.ajay.app/api/v1/getThumbnail?videoID=7DKv5H5Frt0&amp;time=94.818519" />
     <author>
       <name>Tom Scott</name>
       <uri>https://www.youtube.com/channel/UCBa659QWEk1AI4Tg--mrJ2A</uri>
@@ -25,7 +24,7 @@
     <media:group xmlns:media="http://search.yahoo.com/mrss/">
       <media:title>After ten years, it's time to stop making videos.</media:title>
       <media:content url="https://www.youtube.com/v/7DKv5H5Frt0?version=3" type="application/x-shockwave-flash" width="640" height="390" />
-      <media:thumbnail url="https://i4.ytimg.com/vi/7DKv5H5Frt0/hqdefault.jpg" width="480" height="360" />
+      <media:thumbnail url="https://dearrow-thumb.ajay.app/api/v1/getThumbnail?videoID=7DKv5H5Frt0&amp;time=94.818519" width="480" height="360" />
       <media:description>Find me here: ❓ LATERAL, free weekly podcast: https://lateralcast.com/ https://youtube.com/lateralcast &#x1f4f0; WEEKLY NEWSLETTER https://www.tomscott.com/newsletter/ &#x1f7e5;➕ TOM SCOTT PLUS: https://youtube.com/tomscottplus &#x1f465; THE TECHNICAL DIFFICULTIES: https://youtube.com/techdif &#x1f7e5; MAIN SITE: https://www.tomscott.com/
 
 On January 1st, 2014, I uploaded the first "Things You Might Not Know" video. Once the initial rush of videos settled down, I aimed for one video a week, and while there have sometimes been guest videos and occasional blatant filler: to my own satisfaction, I never missed a week. But now, it's time to stop.
@@ -108,8 +107,8 @@ https://www.youtube.com/watch?v=xym2R6_Qd7c
 https://www.youtube.com/watch?v=vxfJbW6KDp4
 https://www.youtube.com/watch?v=F0JDK_71yDg</media:description>
       <media:community>
-        <media:starRating count="949752" average="5.00" min="1" max="5" />
-        <media:statistics views="9109469" />
+        <media:starRating count="967130" average="5.00" min="1" max="5" />
+        <media:statistics views="9307477" />
       </media:community>
     </media:group>
     <dc:creator>Tom Scott</dc:creator>
@@ -118,7 +117,6 @@ https://www.youtube.com/watch?v=F0JDK_71yDg</media:description>
   <entry>
     <title>Climbing a pylon and explaining the UK's national grid</title>
     <link rel="alternate" href="https://www.youtube.com/watch?v=F0JDK_71yDg" />
-    <link rel="enclosure" type="image/webp" href="https://dearrow-thumb.ajay.app/api/v1/getThumbnail?videoID=F0JDK_71yDg&amp;time=154.184216" />
     <author>
       <name>Tom Scott</name>
       <uri>https://www.youtube.com/channel/UCBa659QWEk1AI4Tg--mrJ2A</uri>
@@ -131,7 +129,7 @@ https://www.youtube.com/watch?v=F0JDK_71yDg</media:description>
     <media:group xmlns:media="http://search.yahoo.com/mrss/">
       <media:title>People are going to be angry about pylons.</media:title>
       <media:content url="https://www.youtube.com/v/F0JDK_71yDg?version=3" type="application/x-shockwave-flash" width="640" height="390" />
-      <media:thumbnail url="https://i3.ytimg.com/vi/F0JDK_71yDg/hqdefault.jpg" width="480" height="360" />
+      <media:thumbnail url="https://dearrow-thumb.ajay.app/api/v1/getThumbnail?videoID=F0JDK_71yDg&amp;time=154.184216" width="480" height="360" />
       <media:description>Britain's power grid is turning inside-out, which means pylons are about to become a lot more controversial in Britain. At the National Grid Training Centre, I climbed one. ■ The "Great Grid Upgrade": https://www.nationalgrid.com/the-great-grid-upgrade
 
 National Grid also asked if I'd plug their Early Careers page, for anyone in the UK thinking of joining the industry: https://jobs.nationalgrid.com/UK/content/Early-careers/
@@ -150,8 +148,8 @@ Thanks to Dave Brain for camera-sensor-dust paintouts @davebrainvfx
 ➕ TOM SCOTT PLUS: https://youtube.com/tomscottplus
 &#x1f465; THE TECHNICAL DIFFICULTIES: https://youtube.com/techdif</media:description>
       <media:community>
-        <media:starRating count="84752" average="5.00" min="1" max="5" />
-        <media:statistics views="1603598" />
+        <media:starRating count="84925" average="5.00" min="1" max="5" />
+        <media:statistics views="1608143" />
       </media:community>
     </media:group>
     <dc:creator>Tom Scott</dc:creator>
@@ -160,7 +158,6 @@ Thanks to Dave Brain for camera-sensor-dust paintouts @davebrainvfx
   <entry>
     <title>How sterile male medflies are released in California to combat infestations</title>
     <link rel="alternate" href="https://www.youtube.com/watch?v=Zl_5LT2fzak" />
-    <link rel="enclosure" type="image/webp" href="https://dearrow-thumb.ajay.app/api/v1/getThumbnail?videoID=Zl_5LT2fzak&amp;time=201.847232" />
     <author>
       <name>Tom Scott</name>
       <uri>https://www.youtube.com/channel/UCBa659QWEk1AI4Tg--mrJ2A</uri>
@@ -173,7 +170,7 @@ Thanks to Dave Brain for camera-sensor-dust paintouts @davebrainvfx
     <media:group xmlns:media="http://search.yahoo.com/mrss/">
       <media:title>Why the government drops flies on California</media:title>
       <media:content url="https://www.youtube.com/v/Zl_5LT2fzak?version=3" type="application/x-shockwave-flash" width="640" height="390" />
-      <media:thumbnail url="https://i3.ytimg.com/vi/Zl_5LT2fzak/hqdefault.jpg" width="480" height="360" />
+      <media:thumbnail url="https://dearrow-thumb.ajay.app/api/v1/getThumbnail?videoID=Zl_5LT2fzak&amp;time=201.847232" width="480" height="360" />
       <media:description>There's a good reason for it. ■ More about the program: https://www.cdfa.ca.gov/plant/PDEP/prpinfo/
 
 Edited by Michelle Martin https://twitter.com/mrsmmartin
@@ -186,8 +183,8 @@ Edited by Michelle Martin https://twitter.com/mrsmmartin
 ➕ TOM SCOTT PLUS: https://youtube.com/tomscottplus
 &#x1f465; THE TECHNICAL DIFFICULTIES: https://youtube.com/techdif</media:description>
       <media:community>
-        <media:starRating count="69463" average="5.00" min="1" max="5" />
-        <media:statistics views="1623641" />
+        <media:starRating count="69665" average="5.00" min="1" max="5" />
+        <media:statistics views="1641807" />
       </media:community>
     </media:group>
     <dc:creator>Tom Scott</dc:creator>
@@ -196,7 +193,6 @@ Edited by Michelle Martin https://twitter.com/mrsmmartin
   <entry>
     <title>Nio's battery swap station for their electric cars</title>
     <link rel="alternate" href="https://www.youtube.com/watch?v=hNZy603as5w" />
-    <link rel="enclosure" type="image/webp" href="https://dearrow-thumb.ajay.app/api/v1/getThumbnail?videoID=hNZy603as5w&amp;time=86.307754" />
     <author>
       <name>Tom Scott</name>
       <uri>https://www.youtube.com/channel/UCBa659QWEk1AI4Tg--mrJ2A</uri>
@@ -209,7 +205,7 @@ Edited by Michelle Martin https://twitter.com/mrsmmartin
     <media:group xmlns:media="http://search.yahoo.com/mrss/">
       <media:title>A robot just swapped my electric car's battery</media:title>
       <media:content url="https://www.youtube.com/v/hNZy603as5w?version=3" type="application/x-shockwave-flash" width="640" height="390" />
-      <media:thumbnail url="https://i1.ytimg.com/vi/hNZy603as5w/hqdefault.jpg" width="480" height="360" />
+      <media:thumbnail url="https://dearrow-thumb.ajay.app/api/v1/getThumbnail?videoID=hNZy603as5w&amp;time=86.307754" width="480" height="360" />
       <media:description>Nio is a Chinese auto maker that offers an alternative to charging: just swapping out the whole battery whenever you need it. I borrowed one of their cars. ■ Nio: https://www.nio.com/
 
 Camera: Dion Huiskes https://feedbuilders.nl/
@@ -223,8 +219,8 @@ Editor: Julian Domanski https://www.juliandomanski.com/
 ➕ TOM SCOTT PLUS: https://youtube.com/tomscottplus
 &#x1f465; THE TECHNICAL DIFFICULTIES: https://youtube.com/techdif</media:description>
       <media:community>
-        <media:starRating count="67579" average="5.00" min="1" max="5" />
-        <media:statistics views="1599948" />
+        <media:starRating count="67631" average="5.00" min="1" max="5" />
+        <media:statistics views="1602502" />
       </media:community>
     </media:group>
     <dc:creator>Tom Scott</dc:creator>
@@ -233,7 +229,6 @@ Editor: Julian Domanski https://www.juliandomanski.com/
   <entry>
     <title>Why don't subtitles match dubbing?</title>
     <link rel="alternate" href="https://www.youtube.com/watch?v=pU9sHwNKc2c" />
-    <link rel="enclosure" type="image/webp" href="https://dearrow-thumb.ajay.app/api/v1/getThumbnail?videoID=pU9sHwNKc2c&amp;time=238.7437905598231" />
     <author>
       <name>Tom Scott</name>
       <uri>https://www.youtube.com/channel/UCBa659QWEk1AI4Tg--mrJ2A</uri>
@@ -246,7 +241,7 @@ Editor: Julian Domanski https://www.juliandomanski.com/
     <media:group xmlns:media="http://search.yahoo.com/mrss/">
       <media:title>Why don't subtitles match dubbing?</media:title>
       <media:content url="https://www.youtube.com/v/pU9sHwNKc2c?version=3" type="application/x-shockwave-flash" width="640" height="390" />
-      <media:thumbnail url="https://i1.ytimg.com/vi/pU9sHwNKc2c/hqdefault.jpg" width="480" height="360" />
+      <media:thumbnail url="https://dearrow-thumb.ajay.app/api/v1/getThumbnail?videoID=pU9sHwNKc2c&amp;time=238.7437905598231" width="480" height="360" />
       <media:description>Translation is really difficult. ■ AD: &#x1f468;‍&#x1f4bb; NordVPN's best deal is here: https://nordvpn.com/tomscott - with a 30-day money-back guarantee.
 
 &#x1f7e5; MORE FROM TOM: https://www.tomscott.com/
@@ -292,8 +287,8 @@ Subtitle Translator: Pollyana Tiussi
 Translation Studio: Iyuno
 Operations Manager: Coolbe Hung</media:description>
       <media:community>
-        <media:starRating count="90981" average="5.00" min="1" max="5" />
-        <media:statistics views="1410933" />
+        <media:starRating count="91119" average="5.00" min="1" max="5" />
+        <media:statistics views="1413538" />
       </media:community>
     </media:group>
     <dc:creator>Tom Scott</dc:creator>
@@ -302,7 +297,6 @@ Operations Manager: Coolbe Hung</media:description>
   <entry>
     <title>The history of pre-streetlight "Moonlight Towers" in Austin, Texas</title>
     <link rel="alternate" href="https://www.youtube.com/watch?v=LDiXNsWQzD0" />
-    <link rel="enclosure" type="image/webp" href="https://dearrow-thumb.ajay.app/api/v1/getThumbnail?videoID=LDiXNsWQzD0&amp;time=184.899525477707" />
     <author>
       <name>Tom Scott</name>
       <uri>https://www.youtube.com/channel/UCBa659QWEk1AI4Tg--mrJ2A</uri>
@@ -315,7 +309,7 @@ Operations Manager: Coolbe Hung</media:description>
     <media:group xmlns:media="http://search.yahoo.com/mrss/">
       <media:title>Why use many streetlights when one will do?</media:title>
       <media:content url="https://www.youtube.com/v/LDiXNsWQzD0?version=3" type="application/x-shockwave-flash" width="640" height="390" />
-      <media:thumbnail url="https://i1.ytimg.com/vi/LDiXNsWQzD0/hqdefault.jpg" width="480" height="360" />
+      <media:thumbnail url="https://dearrow-thumb.ajay.app/api/v1/getThumbnail?videoID=LDiXNsWQzD0&amp;time=184.899525477707" width="480" height="360" />
       <media:description>The moonlight towers of Austin, Texas, are the last urban municipal lighting towers in the world: because before every street was wired to the grid, how else would you light up a city? ■ Austin Energy: https://austinenergy.com/ ■ Moonlight Towers https://www.austintexas.org/listings/moonlight-towers/5895/
 
 Producer: Jodi Shores at Sparksight https://sparksight.com
@@ -332,8 +326,8 @@ Editor: Michelle Martin https://twitter.com/mrsmmartin
 ➕ TOM SCOTT PLUS: https://youtube.com/tomscottplus
 &#x1f465; THE TECHNICAL DIFFICULTIES: https://youtube.com/techdif</media:description>
       <media:community>
-        <media:starRating count="107438" average="5.00" min="1" max="5" />
-        <media:statistics views="2350250" />
+        <media:starRating count="107539" average="5.00" min="1" max="5" />
+        <media:statistics views="2354254" />
       </media:community>
     </media:group>
     <dc:creator>Tom Scott</dc:creator>
@@ -342,7 +336,6 @@ Editor: Michelle Martin https://twitter.com/mrsmmartin
   <entry>
     <title>Port Iława: The harbour where captains and pilots are trained on scale ship models</title>
     <link rel="alternate" href="https://www.youtube.com/watch?v=jplrbxI5GN8" />
-    <link rel="enclosure" type="image/webp" href="https://dearrow-thumb.ajay.app/api/v1/getThumbnail?videoID=jplrbxI5GN8&amp;time=41.32289808917197" />
     <author>
       <name>Tom Scott</name>
       <uri>https://www.youtube.com/channel/UCBa659QWEk1AI4Tg--mrJ2A</uri>
@@ -355,7 +348,7 @@ Editor: Michelle Martin https://twitter.com/mrsmmartin
     <media:group xmlns:media="http://search.yahoo.com/mrss/">
       <media:title>These tiny ships have a serious purpose</media:title>
       <media:content url="https://www.youtube.com/v/jplrbxI5GN8?version=3" type="application/x-shockwave-flash" width="640" height="390" />
-      <media:thumbnail url="https://i3.ytimg.com/vi/jplrbxI5GN8/hqdefault.jpg" width="480" height="360" />
+      <media:thumbnail url="https://dearrow-thumb.ajay.app/api/v1/getThumbnail?videoID=jplrbxI5GN8&amp;time=41.32289808917197" width="480" height="360" />
       <media:description>At Port Iława in Poland, pilots and captains of massive ships train on 1-to-24 scale ship models: and I got to drive one. ■ The Ship Handling Research and Training Centre: https://www.ilawashiphandling.com.pl/ &#x1f7e5; MORE FROM TOM: https://www.tomscott.com/
 (you can find contact details and social links there too)
 
@@ -366,8 +359,8 @@ Edited by Michelle Martin https://twitter.com/mrsmmartin
 ➕ TOM SCOTT PLUS: https://youtube.com/tomscottplus
 &#x1f465; THE TECHNICAL DIFFICULTIES: https://youtube.com/techdif</media:description>
       <media:community>
-        <media:starRating count="75432" average="5.00" min="1" max="5" />
-        <media:statistics views="1372530" />
+        <media:starRating count="75482" average="5.00" min="1" max="5" />
+        <media:statistics views="1373850" />
       </media:community>
     </media:group>
     <dc:creator>Tom Scott</dc:creator>
@@ -376,7 +369,6 @@ Edited by Michelle Martin https://twitter.com/mrsmmartin
   <entry>
     <title>Every factual error on this channel so far (2023-11-13)</title>
     <link rel="alternate" href="https://www.youtube.com/watch?v=lIbfMjZ0ME4" />
-    <link rel="enclosure" type="image/webp" href="https://dearrow-thumb.ajay.app/api/v1/getThumbnail?videoID=lIbfMjZ0ME4&amp;time=109.007109" />
     <author>
       <name>Tom Scott</name>
       <uri>https://www.youtube.com/channel/UCBa659QWEk1AI4Tg--mrJ2A</uri>
@@ -389,7 +381,7 @@ Edited by Michelle Martin https://twitter.com/mrsmmartin
     <media:group xmlns:media="http://search.yahoo.com/mrss/">
       <media:title>Every mistake I've made since 2014.</media:title>
       <media:content url="https://www.youtube.com/v/lIbfMjZ0ME4?version=3" type="application/x-shockwave-flash" width="640" height="390" />
-      <media:thumbnail url="https://i1.ytimg.com/vi/lIbfMjZ0ME4/hqdefault.jpg" width="480" height="360" />
+      <media:thumbnail url="https://dearrow-thumb.ajay.app/api/v1/getThumbnail?videoID=lIbfMjZ0ME4&amp;time=109.007109" width="480" height="360" />
       <media:description>Time to correct the record. ■ AD: &#x1f468;‍&#x1f4bb; NordVPN's Black Friday deal is on: https://nordvpn.com/tomscott - with a 30-day money-back guarantee.
 ✅ All corrections: https://www.tomscott.com/corrections/ | ❓ LATERAL, free weekly podcast: https://lateralcast.com/ https://youtube.com/lateralcast/
 &#x1f7e5; MORE FROM TOM: https://www.tomscott.com/
@@ -447,8 +439,8 @@ https://www.youtube.com/watch?v=9XSzwbFCFtc
 https://www.youtube.com/watch?v=1yfX84RMQ3M
 https://www.youtube.com/watch?v=ZNVuIU6UUiM</media:description>
       <media:community>
-        <media:starRating count="120651" average="5.00" min="1" max="5" />
-        <media:statistics views="1892984" />
+        <media:starRating count="120814" average="5.00" min="1" max="5" />
+        <media:statistics views="1895973" />
       </media:community>
     </media:group>
     <dc:creator>Tom Scott</dc:creator>
@@ -457,7 +449,6 @@ https://www.youtube.com/watch?v=ZNVuIU6UUiM</media:description>
   <entry>
     <title>Linguistic relativism - Does the language you speak change how you think?</title>
     <link rel="alternate" href="https://www.youtube.com/watch?v=CmZdGo6b5yA" />
-    <link rel="enclosure" type="image/webp" href="https://dearrow-thumb.ajay.app/api/v1/getThumbnail?videoID=CmZdGo6b5yA&amp;time=37.863145" />
     <author>
       <name>Tom Scott</name>
       <uri>https://www.youtube.com/channel/UCBa659QWEk1AI4Tg--mrJ2A</uri>
@@ -470,7 +461,7 @@ https://www.youtube.com/watch?v=ZNVuIU6UUiM</media:description>
     <media:group xmlns:media="http://search.yahoo.com/mrss/">
       <media:title>Does the language you speak change how you think?</media:title>
       <media:content url="https://www.youtube.com/v/CmZdGo6b5yA?version=3" type="application/x-shockwave-flash" width="640" height="390" />
-      <media:thumbnail url="https://i4.ytimg.com/vi/CmZdGo6b5yA/hqdefault.jpg" width="480" height="360" />
+      <media:thumbnail url="https://dearrow-thumb.ajay.app/api/v1/getThumbnail?videoID=CmZdGo6b5yA&amp;time=37.863145" width="480" height="360" />
       <media:description>No. Mostly. • 
 Written with Molly Ruhl and Gretchen McCulloch. Gretchen's podcast has an episode all about Arrival: https://lingthusiasm.com/post/157167562811/transcript-lingthusiasm-episode-3-arrival-of-the • 
 More Language Files: https://www.youtube.com/playlist?list=PL96C35uN7xGLDEnHuhD7CTZES3KXFnwm0
@@ -506,8 +497,8 @@ J. C. Jackson et al. (2019) Emotion semantics show both cultural variation and u
 ➕ TOM SCOTT PLUS: https://youtube.com/tomscottplus
 &#x1f465; THE TECHNICAL DIFFICULTIES: https://youtube.com/techdif</media:description>
       <media:community>
-        <media:starRating count="82785" average="5.00" min="1" max="5" />
-        <media:statistics views="1171815" />
+        <media:starRating count="82839" average="5.00" min="1" max="5" />
+        <media:statistics views="1172890" />
       </media:community>
     </media:group>
     <dc:creator>Tom Scott</dc:creator>
@@ -516,7 +507,6 @@ J. C. Jackson et al. (2019) Emotion semantics show both cultural variation and u
   <entry>
     <title>The mobile lounges of Montreal airport, a 1950's invention that never caught on</title>
     <link rel="alternate" href="https://www.youtube.com/watch?v=j3OqAN4ISOw" />
-    <link rel="enclosure" type="image/webp" href="https://dearrow-thumb.ajay.app/api/v1/getThumbnail?videoID=j3OqAN4ISOw&amp;time=51.64352" />
     <author>
       <name>Tom Scott</name>
       <uri>https://www.youtube.com/channel/UCBa659QWEk1AI4Tg--mrJ2A</uri>
@@ -529,7 +519,7 @@ J. C. Jackson et al. (2019) Emotion semantics show both cultural variation and u
     <media:group xmlns:media="http://search.yahoo.com/mrss/">
       <media:title>Boarding planes could have been very different</media:title>
       <media:content url="https://www.youtube.com/v/j3OqAN4ISOw?version=3" type="application/x-shockwave-flash" width="640" height="390" />
-      <media:thumbnail url="https://i3.ytimg.com/vi/j3OqAN4ISOw/hqdefault.jpg" width="480" height="360" />
+      <media:thumbnail url="https://dearrow-thumb.ajay.app/api/v1/getThumbnail?videoID=j3OqAN4ISOw&amp;time=51.64352" width="480" height="360" />
       <media:description>There's a world in which everyone boards planes with "mobile lounges", PTVs, or Plane-Mates... but this is not that world. ■ YUL Montreal-Trudeau International Airport: https://www.admtl.com/en ■ AccessAir: https://accessairsystems.com/
 
 Thanks to Eric Forest and the airport team, and to Christian Brice for stepping in for additional camerawork!
@@ -542,8 +532,8 @@ Thanks to Eric Forest and the airport team, and to Christian Brice for stepping 
 ➕ TOM SCOTT PLUS: https://youtube.com/tomscottplus
 &#x1f465; THE TECHNICAL DIFFICULTIES: https://youtube.com/techdif</media:description>
       <media:community>
-        <media:starRating count="109409" average="5.00" min="1" max="5" />
-        <media:statistics views="2306084" />
+        <media:starRating count="109546" average="5.00" min="1" max="5" />
+        <media:statistics views="2311570" />
       </media:community>
     </media:group>
     <dc:creator>Tom Scott</dc:creator>
@@ -552,7 +542,6 @@ Thanks to Eric Forest and the airport team, and to Christian Brice for stepping 
   <entry>
     <title>Accelerating From 0-100 Km/h in 1.4 Seconds With the Mythen Car From ETH Zurich</title>
     <link rel="alternate" href="https://www.youtube.com/watch?v=XQIu5tZ0vbQ" />
-    <link rel="enclosure" type="image/webp" href="https://dearrow-thumb.ajay.app/api/v1/getThumbnail?videoID=XQIu5tZ0vbQ&amp;time=227.971465" />
     <author>
       <name>Tom Scott</name>
       <uri>https://www.youtube.com/channel/UCBa659QWEk1AI4Tg--mrJ2A</uri>
@@ -565,7 +554,7 @@ Thanks to Eric Forest and the airport team, and to Christian Brice for stepping 
     <media:group xmlns:media="http://search.yahoo.com/mrss/">
       <media:title>0-100 in less than a second. And I'm driving.</media:title>
       <media:content url="https://www.youtube.com/v/XQIu5tZ0vbQ?version=3" type="application/x-shockwave-flash" width="640" height="390" />
-      <media:thumbnail url="https://i1.ytimg.com/vi/XQIu5tZ0vbQ/hqdefault.jpg" width="480" height="360" />
+      <media:thumbnail url="https://dearrow-thumb.ajay.app/api/v1/getThumbnail?videoID=XQIu5tZ0vbQ&amp;time=227.971465" width="480" height="360" />
       <media:description>AMZ Racing's "mythen" holds the world record for electric vehicle acceleration: 0-100km/h in 0.956 seconds. And they let me drive it. ■ AMZ: https://www.amzracing.ch/en https://www.instagram.com/amzracing/ ■ Their world record video: https://www.youtube.com/watch?v=88cVs5zZFTE
 
 Main camera op: Juan Pablo Salazar
@@ -580,8 +569,8 @@ Drone camera ops: Felix Kunz, Marco Odermatt
 ➕ TOM SCOTT PLUS: https://youtube.com/tomscottplus
 &#x1f465; THE TECHNICAL DIFFICULTIES: https://youtube.com/techdif</media:description>
       <media:community>
-        <media:starRating count="160845" average="5.00" min="1" max="5" />
-        <media:statistics views="3357891" />
+        <media:starRating count="160944" average="5.00" min="1" max="5" />
+        <media:statistics views="3361647" />
       </media:community>
     </media:group>
     <dc:creator>Tom Scott</dc:creator>
@@ -590,7 +579,6 @@ Drone camera ops: Felix Kunz, Marco Odermatt
   <entry>
     <title>Why some contractions don't work</title>
     <link rel="alternate" href="https://www.youtube.com/watch?v=CkZyZFa5qO0" />
-    <link rel="enclosure" type="image/webp" href="https://dearrow-thumb.ajay.app/api/v1/getThumbnail?videoID=CkZyZFa5qO0&amp;time=126.154752" />
     <author>
       <name>Tom Scott</name>
       <uri>https://www.youtube.com/channel/UCBa659QWEk1AI4Tg--mrJ2A</uri>
@@ -603,7 +591,7 @@ Drone camera ops: Felix Kunz, Marco Odermatt
     <media:group xmlns:media="http://search.yahoo.com/mrss/">
       <media:title>there’dn’t’ve</media:title>
       <media:content url="https://www.youtube.com/v/CkZyZFa5qO0?version=3" type="application/x-shockwave-flash" width="640" height="390" />
-      <media:thumbnail url="https://i4.ytimg.com/vi/CkZyZFa5qO0/hqdefault.jpg" width="480" height="360" />
+      <media:thumbnail url="https://dearrow-thumb.ajay.app/api/v1/getThumbnail?videoID=CkZyZFa5qO0&amp;time=126.154752" width="480" height="360" />
       <media:description>This script was a nightmare to pronounce. • 
 Written with Molly Ruhl and Gretchen McCulloch. Gretchen's podcast has an episode all about this: https://lingthusiasm.com/post/662535562508517376/lingthusiasm-episode-60-thats-the-kind-of • 
 More Language Files: https://www.youtube.com/playlist?list=PL96C35uN7xGLDEnHuhD7CTZES3KXFnwm0
@@ -636,8 +624,8 @@ Richard D. Janda (eds.) The Handbook of Historical Linguistics. Oxford: Blackwel
 ➕ TOM SCOTT PLUS: https://youtube.com/tomscottplus
 &#x1f465; THE TECHNICAL DIFFICULTIES: https://youtube.com/techdif</media:description>
       <media:community>
-        <media:starRating count="174361" average="5.00" min="1" max="5" />
-        <media:statistics views="3153647" />
+        <media:starRating count="174463" average="5.00" min="1" max="5" />
+        <media:statistics views="3157003" />
       </media:community>
     </media:group>
     <dc:creator>Tom Scott</dc:creator>
@@ -646,7 +634,6 @@ Richard D. Janda (eds.) The Handbook of Historical Linguistics. Oxford: Blackwel
   <entry>
     <title>Riding the world's only curved elevator in Hanover, Germany</title>
     <link rel="alternate" href="https://www.youtube.com/watch?v=ZgDBIzClmPg" />
-    <link rel="enclosure" type="image/webp" href="https://dearrow-thumb.ajay.app/api/v1/getThumbnail?videoID=ZgDBIzClmPg&amp;time=86.393371" />
     <author>
       <name>Tom Scott</name>
       <uri>https://www.youtube.com/channel/UCBa659QWEk1AI4Tg--mrJ2A</uri>
@@ -659,7 +646,7 @@ Richard D. Janda (eds.) The Handbook of Historical Linguistics. Oxford: Blackwel
     <media:group xmlns:media="http://search.yahoo.com/mrss/">
       <media:title>I finally rode the weird, curved German elevator.</media:title>
       <media:content url="https://www.youtube.com/v/ZgDBIzClmPg?version=3" type="application/x-shockwave-flash" width="640" height="390" />
-      <media:thumbnail url="https://i3.ytimg.com/vi/ZgDBIzClmPg/hqdefault.jpg" width="480" height="360" />
+      <media:thumbnail url="https://dearrow-thumb.ajay.app/api/v1/getThumbnail?videoID=ZgDBIzClmPg&amp;time=86.393371" width="480" height="360" />
       <media:description>At the New Town Hall, the Neues Rathaus, in Hanover, there's a strange elevator where the track curves unevenly. For years, people from Germany have been emailing me about it: well, I finally visited. ■ More about the Hall: https://www.visit-hannover.com/en/Sightseeing-City-Tours/Tourist-Highlights/The-New-Town-Hall
 
 Camera: Maximilian Unger
@@ -673,8 +660,8 @@ Producer: Viktor Sramo at Klein Aber
 ➕ TOM SCOTT PLUS: https://youtube.com/tomscottplus
 &#x1f465; THE TECHNICAL DIFFICULTIES: https://youtube.com/techdif</media:description>
       <media:community>
-        <media:starRating count="193648" average="5.00" min="1" max="5" />
-        <media:statistics views="4160331" />
+        <media:starRating count="193835" average="5.00" min="1" max="5" />
+        <media:statistics views="4168725" />
       </media:community>
     </media:group>
     <dc:creator>Tom Scott</dc:creator>
@@ -683,7 +670,6 @@ Producer: Viktor Sramo at Klein Aber
   <entry>
     <title>Large optical telescopes and their size limit</title>
     <link rel="alternate" href="https://www.youtube.com/watch?v=QqRREz0iBes" />
-    <link rel="enclosure" type="image/webp" href="https://dearrow-thumb.ajay.app/api/v1/getThumbnail?videoID=QqRREz0iBes&amp;time=112.911088" />
     <author>
       <name>Tom Scott</name>
       <uri>https://www.youtube.com/channel/UCBa659QWEk1AI4Tg--mrJ2A</uri>
@@ -696,7 +682,7 @@ Producer: Viktor Sramo at Klein Aber
     <media:group xmlns:media="http://search.yahoo.com/mrss/">
       <media:title>The largest telescope that will ever be built*</media:title>
       <media:content url="https://www.youtube.com/v/QqRREz0iBes?version=3" type="application/x-shockwave-flash" width="640" height="390" />
-      <media:thumbnail url="https://i2.ytimg.com/vi/QqRREz0iBes/hqdefault.jpg" width="480" height="360" />
+      <media:thumbnail url="https://dearrow-thumb.ajay.app/api/v1/getThumbnail?videoID=QqRREz0iBes&amp;time=112.911088" width="480" height="360" />
       <media:description>The asterisk is important. ■ AD: &#x1f468;‍&#x1f4bb; NordVPN's best deal is here: https://nordvpn.com/tomscott - with a 30-day money-back guarantee. ■ More on the ELT: @ESOobservatory https://eso.org 
 
 The Extremely Large Telescope, in Paranal, Chile, is probably going to be the largest optical telescope that will ever be constructed. I was invited out there by the UK Science and Technology Facilities Council and the European Southern Observatory, and I wasn't going to turn down a chance like that.
@@ -733,8 +719,8 @@ and in Parkes: https://www.youtube.com/watch?v=6o38C-ultvw
 ➕ TOM SCOTT PLUS: https://youtube.com/tomscottplus
 &#x1f465; THE TECHNICAL DIFFICULTIES: https://youtube.com/techdif</media:description>
       <media:community>
-        <media:starRating count="114420" average="5.00" min="1" max="5" />
-        <media:statistics views="2006212" />
+        <media:starRating count="114475" average="5.00" min="1" max="5" />
+        <media:statistics views="2008474" />
       </media:community>
     </media:group>
     <dc:creator>Tom Scott</dc:creator>
@@ -743,7 +729,6 @@ and in Parkes: https://www.youtube.com/watch?v=6o38C-ultvw
   <entry>
     <title>The Bolwoningen: Spherical Homes in the Netherlands</title>
     <link rel="alternate" href="https://www.youtube.com/watch?v=3kwDVw0u4Kw" />
-    <link rel="enclosure" type="image/webp" href="https://dearrow-thumb.ajay.app/api/v1/getThumbnail?videoID=3kwDVw0u4Kw&amp;time=93.842767" />
     <author>
       <name>Tom Scott</name>
       <uri>https://www.youtube.com/channel/UCBa659QWEk1AI4Tg--mrJ2A</uri>
@@ -756,7 +741,7 @@ and in Parkes: https://www.youtube.com/watch?v=6o38C-ultvw
     <media:group xmlns:media="http://search.yahoo.com/mrss/">
       <media:title>Spherical houses weren't a great idea.</media:title>
       <media:content url="https://www.youtube.com/v/3kwDVw0u4Kw?version=3" type="application/x-shockwave-flash" width="640" height="390" />
-      <media:thumbnail url="https://i4.ytimg.com/vi/3kwDVw0u4Kw/hqdefault.jpg" width="480" height="360" />
+      <media:thumbnail url="https://dearrow-thumb.ajay.app/api/v1/getThumbnail?videoID=3kwDVw0u4Kw&amp;time=93.842767" width="480" height="360" />
       <media:description>The Bolwoningen, in Den Bosch, in the Netherlands, are experimental architecture: the surprising part is that people still live there.
 
 Local producer: Jasper Deelen
@@ -774,8 +759,8 @@ A lot of my history research for this video is based on the 2019 book "Experimen
 ➕ TOM SCOTT PLUS: https://youtube.com/tomscottplus
 &#x1f465; THE TECHNICAL DIFFICULTIES: https://youtube.com/techdif</media:description>
       <media:community>
-        <media:starRating count="125119" average="5.00" min="1" max="5" />
-        <media:statistics views="3466164" />
+        <media:starRating count="125218" average="5.00" min="1" max="5" />
+        <media:statistics views="3469654" />
       </media:community>
     </media:group>
     <dc:creator>Tom Scott</dc:creator>

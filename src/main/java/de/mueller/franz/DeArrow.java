@@ -11,7 +11,6 @@ import java.net.URLEncoder;
 import java.util.List;
 
 public class DeArrow {
-	HandleRssFeed handleRssFeed = new HandleRssFeed();
 
 	/**
 	 * get DeArrow information
@@ -37,7 +36,6 @@ public class DeArrow {
 		con.setRequestProperty("Accept", "application/json");
 		// handle everything that's not 200
 		if (con.getResponseCode() != HttpURLConnection.HTTP_OK) {
-			System.out.println("FUCKED");
 			return null;
 		}
 		try (BufferedReader br = new BufferedReader(
@@ -123,7 +121,6 @@ public class DeArrow {
 		}
 		return new ProcessedInformation(title, url);
 	}
-
 	/**
 	 * fetches thumbnail image
 	 *
@@ -149,17 +146,19 @@ public class DeArrow {
 		con.setRequestProperty("Content-Type", "application/json");
 		con.setRequestProperty("Accept", "application/json");
 
-		try (BufferedReader br = new BufferedReader(
+		int responseCode = con.getResponseCode();
+		if (responseCode == HttpURLConnection.HTTP_OK) {
+			return completeUrl;
+		} else return null;
+
+		// no need for receiving and process the image
+		/*try (BufferedReader br = new BufferedReader(
 				new InputStreamReader(con.getInputStream(), "utf-8"))) {
 			StringBuilder response = new StringBuilder();
 			String responseLine;
 			while ((responseLine = br.readLine()) != null) {
 				response.append(responseLine.trim());
 			}
-			int responseCode = con.getResponseCode();
-			if (responseCode == HttpURLConnection.HTTP_OK) {
-				return completeUrl;
-			} else return null;
-		}
+		}*/
 	}
 }

@@ -1,136 +1,167 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
   <title>Franz3</title>
-  <link rel="alternate" href="https://www.youtube.com/channel/UCXSxFFavTLTKzKkudovN2wQ" />
-  <link rel="self" href="http://www.youtube.com/feeds/videos.xml?channel_id=UCXSxFFavTLTKzKkudovN2wQ" />
+  <link rel="alternate" href="https://yewtu.be/channel/UCXSxFFavTLTKzKkudovN2wQ" />
+  <link rel="self" href="https://yewtu.be/feed/channel/UCXSxFFavTLTKzKkudovN2wQ" />
   <author>
     <name>Franz3</name>
-    <uri>https://www.youtube.com/channel/UCXSxFFavTLTKzKkudovN2wQ</uri>
+    <uri>https://yewtu.be/channel/UCXSxFFavTLTKzKkudovN2wQ</uri>
   </author>
-  <id>yt:channel:XSxFFavTLTKzKkudovN2wQ</id>
-  <yt:channelId xmlns:yt="http://www.youtube.com/xml/schemas/2015">XSxFFavTLTKzKkudovN2wQ</yt:channelId>
+  <id>yt:channel:UCXSxFFavTLTKzKkudovN2wQ</id>
+  <icon>https://yt3.googleusercontent.com/ytc/AIf8zZTBcISBomnRrUVxtgkCy4xqspfh9fSUIv70JQ=s900-c-k-c0x00ffffff-no-rj</icon>
+  <yt:channelId xmlns:yt="http://www.youtube.com/xml/schemas/2015">UCXSxFFavTLTKzKkudovN2wQ</yt:channelId>
   <entry>
     <title>JuniorsDiary Blockbuster</title>
-    <link rel="alternate" href="https://www.youtube.com/watch?v=JWHuDjUF17U" />
+    <link rel="alternate" href="https://yewtu.be/watch?v=JWHuDjUF17U" />
     <author>
       <name>Franz3</name>
-      <uri>https://www.youtube.com/channel/UCXSxFFavTLTKzKkudovN2wQ</uri>
+      <uri>https://yewtu.be/channel/UCXSxFFavTLTKzKkudovN2wQ</uri>
     </author>
     <id>yt:video:JWHuDjUF17U</id>
-    <updated>2023-12-28T06:49:44Z</updated>
+    <updated>2021-07-30T01:15:12Z</updated>
     <published>2021-07-30T01:15:12Z</published>
+    <content type="xhtml">
+      <div xmlns="http://www.w3.org/1999/xhtml">
+        <a href="https://yewtu.be/watch?v=JWHuDjUF17U">
+          <img src="https://yewtu.be/vi/JWHuDjUF17U/mqdefault.jpg" />
+        </a>
+        <p style="word-break:break-word;white-space:pre-wrap">baba bubu movie trailer</p>
+      </div>
+    </content>
     <yt:videoId xmlns:yt="http://www.youtube.com/xml/schemas/2015">JWHuDjUF17U</yt:videoId>
     <yt:channelId xmlns:yt="http://www.youtube.com/xml/schemas/2015">UCXSxFFavTLTKzKkudovN2wQ</yt:channelId>
     <media:group xmlns:media="http://search.yahoo.com/mrss/">
       <media:title>JuniorsDiary Blockbuster</media:title>
-      <media:content url="https://www.youtube.com/v/JWHuDjUF17U?version=3" type="application/x-shockwave-flash" width="640" height="390" />
-      <media:thumbnail url="https://i3.ytimg.com/vi/JWHuDjUF17U/hqdefault.jpg" width="480" height="360" />
+      <media:thumbnail url="https://yewtu.be/vi/JWHuDjUF17U/mqdefault.jpg" width="320" height="180" />
       <media:description>baba bubu movie trailer</media:description>
-      <media:community>
-        <media:starRating count="4" average="5.00" min="1" max="5" />
-        <media:statistics views="49" />
-      </media:community>
     </media:group>
+    <media:community xmlns:media="http://search.yahoo.com/mrss/">
+      <media:statistics views="49" />
+    </media:community>
     <dc:creator>Franz3</dc:creator>
     <dc:date>2021-07-30T01:15:12Z</dc:date>
   </entry>
   <entry>
     <title>learning to fligh uncut</title>
-    <link rel="alternate" href="https://www.youtube.com/watch?v=vSo905ZDEjw" />
+    <link rel="alternate" href="https://yewtu.be/watch?v=vSo905ZDEjw" />
     <author>
       <name>Franz3</name>
-      <uri>https://www.youtube.com/channel/UCXSxFFavTLTKzKkudovN2wQ</uri>
+      <uri>https://yewtu.be/channel/UCXSxFFavTLTKzKkudovN2wQ</uri>
     </author>
     <id>yt:video:vSo905ZDEjw</id>
-    <updated>2023-11-23T00:42:00Z</updated>
+    <updated>2021-05-09T01:44:31Z</updated>
     <published>2021-05-09T01:44:31Z</published>
+    <content type="xhtml">
+      <div xmlns="http://www.w3.org/1999/xhtml">
+        <a href="https://yewtu.be/watch?v=vSo905ZDEjw">
+          <img src="https://yewtu.be/vi/vSo905ZDEjw/mqdefault.jpg" />
+        </a>
+        <p style="word-break:break-word;white-space:pre-wrap">hot unreleased uncut flying DRL ð¥µð¥µð¥µ</p>
+      </div>
+    </content>
     <yt:videoId xmlns:yt="http://www.youtube.com/xml/schemas/2015">vSo905ZDEjw</yt:videoId>
     <yt:channelId xmlns:yt="http://www.youtube.com/xml/schemas/2015">UCXSxFFavTLTKzKkudovN2wQ</yt:channelId>
     <media:group xmlns:media="http://search.yahoo.com/mrss/">
       <media:title>learning to fligh uncut</media:title>
-      <media:content url="https://www.youtube.com/v/vSo905ZDEjw?version=3" type="application/x-shockwave-flash" width="640" height="390" />
-      <media:thumbnail url="https://i3.ytimg.com/vi/vSo905ZDEjw/hqdefault.jpg" width="480" height="360" />
-      <media:description>hot unreleased uncut flying DRL &#x1f975;&#x1f975;&#x1f975;</media:description>
-      <media:community>
-        <media:starRating count="1" average="5.00" min="1" max="5" />
-        <media:statistics views="20" />
-      </media:community>
+      <media:thumbnail url="https://yewtu.be/vi/vSo905ZDEjw/mqdefault.jpg" width="320" height="180" />
+      <media:description>hot unreleased uncut flying DRL ð¥µð¥µð¥µ</media:description>
     </media:group>
+    <media:community xmlns:media="http://search.yahoo.com/mrss/">
+      <media:statistics views="20" />
+    </media:community>
     <dc:creator>Franz3</dc:creator>
     <dc:date>2021-05-09T01:44:31Z</dc:date>
   </entry>
   <entry>
     <title>crazy gap</title>
-    <link rel="alternate" href="https://www.youtube.com/watch?v=d9fjIU6TkAk" />
+    <link rel="alternate" href="https://yewtu.be/watch?v=d9fjIU6TkAk" />
     <author>
       <name>Franz3</name>
-      <uri>https://www.youtube.com/channel/UCXSxFFavTLTKzKkudovN2wQ</uri>
+      <uri>https://yewtu.be/channel/UCXSxFFavTLTKzKkudovN2wQ</uri>
     </author>
     <id>yt:video:d9fjIU6TkAk</id>
-    <updated>2023-12-27T09:25:01Z</updated>
+    <updated>2021-05-09T00:09:54Z</updated>
     <published>2021-05-09T00:09:54Z</published>
+    <content type="xhtml">
+      <div xmlns="http://www.w3.org/1999/xhtml">
+        <a href="https://yewtu.be/watch?v=d9fjIU6TkAk">
+          <img src="https://yewtu.be/vi/d9fjIU6TkAk/mqdefault.jpg" />
+        </a>
+        <p style="word-break:break-word;white-space:pre-wrap">DRL flight trainging</p>
+      </div>
+    </content>
     <yt:videoId xmlns:yt="http://www.youtube.com/xml/schemas/2015">d9fjIU6TkAk</yt:videoId>
     <yt:channelId xmlns:yt="http://www.youtube.com/xml/schemas/2015">UCXSxFFavTLTKzKkudovN2wQ</yt:channelId>
     <media:group xmlns:media="http://search.yahoo.com/mrss/">
       <media:title>crazy gap</media:title>
-      <media:content url="https://www.youtube.com/v/d9fjIU6TkAk?version=3" type="application/x-shockwave-flash" width="640" height="390" />
-      <media:thumbnail url="https://i1.ytimg.com/vi/d9fjIU6TkAk/hqdefault.jpg" width="480" height="360" />
+      <media:thumbnail url="https://yewtu.be/vi/d9fjIU6TkAk/mqdefault.jpg" width="320" height="180" />
       <media:description>DRL flight trainging</media:description>
-      <media:community>
-        <media:starRating count="1" average="5.00" min="1" max="5" />
-        <media:statistics views="19" />
-      </media:community>
     </media:group>
+    <media:community xmlns:media="http://search.yahoo.com/mrss/">
+      <media:statistics views="19" />
+    </media:community>
     <dc:creator>Franz3</dc:creator>
     <dc:date>2021-05-09T00:09:54Z</dc:date>
   </entry>
   <entry>
     <title>out of sky miese kante</title>
-    <link rel="alternate" href="https://www.youtube.com/watch?v=BKZ1MZsTQ_c" />
+    <link rel="alternate" href="https://yewtu.be/watch?v=BKZ1MZsTQ_c" />
     <author>
       <name>Franz3</name>
-      <uri>https://www.youtube.com/channel/UCXSxFFavTLTKzKkudovN2wQ</uri>
+      <uri>https://yewtu.be/channel/UCXSxFFavTLTKzKkudovN2wQ</uri>
     </author>
     <id>yt:video:BKZ1MZsTQ_c</id>
-    <updated>2023-12-28T15:32:04Z</updated>
+    <updated>2019-09-22T12:40:50Z</updated>
     <published>2019-09-22T12:40:50Z</published>
+    <content type="xhtml">
+      <div xmlns="http://www.w3.org/1999/xhtml">
+        <a href="https://yewtu.be/watch?v=BKZ1MZsTQ_c">
+          <img src="https://yewtu.be/vi/BKZ1MZsTQ_c/mqdefault.jpg" />
+        </a>
+        <p style="word-break:break-word;white-space:pre-wrap" />
+      </div>
+    </content>
     <yt:videoId xmlns:yt="http://www.youtube.com/xml/schemas/2015">BKZ1MZsTQ_c</yt:videoId>
     <yt:channelId xmlns:yt="http://www.youtube.com/xml/schemas/2015">UCXSxFFavTLTKzKkudovN2wQ</yt:channelId>
     <media:group xmlns:media="http://search.yahoo.com/mrss/">
       <media:title>out of sky miese kante</media:title>
-      <media:content url="https://www.youtube.com/v/BKZ1MZsTQ_c?version=3" type="application/x-shockwave-flash" width="640" height="390" />
-      <media:thumbnail url="https://i3.ytimg.com/vi/BKZ1MZsTQ_c/hqdefault.jpg" width="480" height="360" />
+      <media:thumbnail url="https://yewtu.be/vi/BKZ1MZsTQ_c/mqdefault.jpg" width="320" height="180" />
       <media:description />
-      <media:community>
-        <media:starRating count="3" average="5.00" min="1" max="5" />
-        <media:statistics views="26" />
-      </media:community>
     </media:group>
+    <media:community xmlns:media="http://search.yahoo.com/mrss/">
+      <media:statistics views="26" />
+    </media:community>
     <dc:creator>Franz3</dc:creator>
     <dc:date>2019-09-22T12:40:50Z</dc:date>
   </entry>
   <entry>
     <title>RankBlade</title>
-    <link rel="alternate" href="https://www.youtube.com/watch?v=OGNyV6u1lcE" />
+    <link rel="alternate" href="https://yewtu.be/watch?v=OGNyV6u1lcE" />
     <author>
       <name>Franz3</name>
-      <uri>https://www.youtube.com/channel/UCXSxFFavTLTKzKkudovN2wQ</uri>
+      <uri>https://yewtu.be/channel/UCXSxFFavTLTKzKkudovN2wQ</uri>
     </author>
     <id>yt:video:OGNyV6u1lcE</id>
-    <updated>2024-01-10T03:36:34Z</updated>
+    <updated>2019-01-26T12:12:34Z</updated>
     <published>2019-01-26T12:12:34Z</published>
+    <content type="xhtml">
+      <div xmlns="http://www.w3.org/1999/xhtml">
+        <a href="https://yewtu.be/watch?v=OGNyV6u1lcE">
+          <img src="https://yewtu.be/vi/OGNyV6u1lcE/mqdefault.jpg" />
+        </a>
+        <p style="word-break:break-word;white-space:pre-wrap">OK`e blade</p>
+      </div>
+    </content>
     <yt:videoId xmlns:yt="http://www.youtube.com/xml/schemas/2015">OGNyV6u1lcE</yt:videoId>
     <yt:channelId xmlns:yt="http://www.youtube.com/xml/schemas/2015">UCXSxFFavTLTKzKkudovN2wQ</yt:channelId>
     <media:group xmlns:media="http://search.yahoo.com/mrss/">
       <media:title>RankBlade</media:title>
-      <media:content url="https://www.youtube.com/v/OGNyV6u1lcE?version=3" type="application/x-shockwave-flash" width="640" height="390" />
-      <media:thumbnail url="https://i4.ytimg.com/vi/OGNyV6u1lcE/hqdefault.jpg" width="480" height="360" />
+      <media:thumbnail url="https://yewtu.be/vi/OGNyV6u1lcE/mqdefault.jpg" width="320" height="180" />
       <media:description>OK`e blade</media:description>
-      <media:community>
-        <media:starRating count="2" average="5.00" min="1" max="5" />
-        <media:statistics views="33" />
-      </media:community>
     </media:group>
+    <media:community xmlns:media="http://search.yahoo.com/mrss/">
+      <media:statistics views="33" />
+    </media:community>
     <dc:creator>Franz3</dc:creator>
     <dc:date>2019-01-26T12:12:34Z</dc:date>
   </entry>
