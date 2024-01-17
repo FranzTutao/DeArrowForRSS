@@ -1,37 +1,43 @@
 package de.mueller.franz;
 
-import com.rometools.rome.feed.synd.SyndEntry;
-import com.rometools.rome.feed.synd.SyndFeed;
 import com.rometools.rome.io.FeedException;
+import spark.Spark;
 
 import java.io.IOException;
+import java.net.URISyntaxException;
+
+import static spark.Spark.get;
+import static spark.Spark.internalServerError;
 
 public class Main {
-	public static void main(String[] args) throws IOException, FeedException {
+	public static void main(String[] args) throws IOException, FeedException, URISyntaxException {
 		// DeArrow: https://wiki.sponsor.ajay.app/w/API_Docs/DeArrow
 		// ROME: https://rometools.github.io/rome/
+		// Spark: https://sparkjava.com/
 
-		// ToDo make dynamic and exposed to web; better understand api request; write tests
-
+		// ToDo make dynamic and exposed to web; speed up image request; write tests
+		HandleRssFeed handleRssFeed = new HandleRssFeed();
 		// Tom Scott
 		// String rssFeedURL = "https://www.youtube.com/feeds/videos.xml?channel_id=UCBa659QWEk1AI4Tg--mrJ2A";
-		// String rssFeedURL = "https://yewtu.be/feed/channel/UCBa659QWEk1AI4Tg--mrJ2A";
+		String rssFeedURL = "https://yewtu.be/feed/channel/UCBa659QWEk1AI4Tg--mrJ2A";
 		// Franz3
-		String rssFeedURL = "https://yewtu.be/feed/channel/UCXSxFFavTLTKzKkudovN2wQ";
+		// String rssFeedURL = "https://yewtu.be/feed/channel/UCBa659QWEk1AI4Tg--mrJ2A";
 
-		HandleRssFeed handleRssFeed = new HandleRssFeed();
-		DeArrow deArrow = new DeArrow();
+		// secure("deploy/keystore.jks", "password", null, null);
 
-		SyndFeed feed = handleRssFeed.readFeed(rssFeedURL);
-		for (SyndEntry entry : feed.getEntries()) {
-			// get vidID from entry
-			String videoId = entry.getUri().substring(entry.getUri().lastIndexOf('=') + 1);
-			videoId = videoId.substring(videoId.lastIndexOf(":") + 1);
-			// get info
-			DeArrow.ProcessedInformation processedInformation = deArrow.processInformation(videoId, deArrow.getInitialInformation(videoId));
-			// change rss feed
-			handleRssFeed.editEntry(entry, processedInformation.getTitle(), processedInformation.getUrl());
-		}
-		handleRssFeed.writeFeedToFile(feed);
+		Spark.webSocketIdleTimeoutMillis((60 * 1000) * 5);
+		// initialize web server
+		get("/DeArrow/*", (request, response) -> {
+
+			String url = request.splat()[0];
+			url = url.replaceFirst("/", "//");
+			response.type("text/xml");
+			return handleRssFeed.createModifiedFeed(url);
+			// return url;
+		});
+		internalServerError((request, response) -> {
+			response.type("text/html");
+			return "<html><body><img src=\"https://http.cat/500\" alt=\"https://http.cat/500\" width=\"747\" height=\"598\"></body></html>";
+		});
 	}
 }

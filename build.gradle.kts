@@ -16,6 +16,8 @@ dependencies {
     implementation ("com.google.code.gson:gson:2.10.1")
     implementation ("ch.qos.logback:logback-classic:1.4.12")
     implementation ("org.jsoup:jsoup:1.17.2")
+    implementation ("com.sparkjava:spark-core:2.9.4")
+
 }
 
 tasks.test {

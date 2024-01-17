@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<feed xmlns="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
+
+    <title>Example</title>
+
+    <link rel="alternate" href="https://yewtu.be/channel/UCBa659QWEk1AI4Tg--mrJ2A"/>
+
+    <link rel="self" href="https://yewtu.be/feed/channel/UCBa659QWEk1AI4Tg--mrJ2A"/>
+
+    <author>
+
+        <name>Example</name>
+
+        <uri>https://yewtu.be/channel/UCBa659QWEk1AI4Tg--mrJ2A</uri>
+
+    </author>
+
+    <id>yt:channel:UCBa659QWEk1AI4Tg--mrJ2A</id>
+
+    <icon>
+        https://yt3.googleusercontent.com/ytc/AIf8zZQZqvzmRs8KizC2KIwe2ISv3jCLWu8LOfW3ZTL2YA=s900-c-k-c0x00ffffff-no-rj
+    </icon>
+
+    <yt:channelId xmlns:yt="http://www.youtube.com/xml/schemas/2015">UCBa659QWEk1AI4Tg--mrJ2A</yt:channelId>
+
+    <entry>
+
+        <title>After ten years, it's time to stop making videos.</title>
+
+        <link rel="alternate" href="https://yewtu.be/watch?v=7DKv5H5Frt0"/>
+
+        <author>
+
+            <name>Example</name>
+
+            <uri>https://yewtu.be/channel/UCBa659QWEk1AI4Tg--mrJ2A</uri>
+
+        </author>
+
+        <id>yt:video:7DKv5H5Frt0</id>
+
+        <updated>2024-01-01T16:00:06Z</updated>
+
+        <published>2024-01-01T16:00:06Z</published>
+
+        <content type="xhtml">
+
+            <div xmlns="http://www.w3.org/1999/xhtml">
+
+                <a href="https://yewtu.be/watch?v=7DKv5H5Frt0">
+
+                    <img src="https://yewtu.be/vi/7DKv5H5Frt0/mqdefault.jpg"/>
+
+                </a>
+
+                <p style="word-break:break-word;white-space:pre-wrap">Find me here</p>
+
+            </div>
+
+        </content>
+
+        <yt:videoId xmlns:yt="http://www.youtube.com/xml/schemas/2015">7DKv5H5Frt0</yt:videoId>
+
+        <yt:channelId xmlns:yt="http://www.youtube.com/xml/schemas/2015">UCBa659QWEk1AI4Tg--mrJ2A</yt:channelId>
+
+        <media:group xmlns:media="http://search.yahoo.com/mrss/">
+
+            <media:title>After ten years, it's time to stop making videos.</media:title>
+
+            <media:thumbnail url="https://yewtu.be/vi/7DKv5H5Frt0/mqdefault.jpg" width="320" height="180"/>
+
+            <media:description>Description</media:description>
+
+        </media:group>
+
+        <media:community xmlns:media="http://search.yahoo.com/mrss/">
+
+            <media:statistics views="9792294"/>
+
+        </media:community>
+
+        <dc:creator>Example</dc:creator>
+
+        <dc:date>2024-01-01T16:00:06Z</dc:date>
+
+    </entry>
+
+</feed>
+

@@ -16,7 +16,7 @@ public class DeArrow {
 	 * get DeArrow information
 	 *
 	 * @param videoID
-	 * @return response
+	 * @return response as String
 	 * @throws IOException
 	 */
 	public String getInitialInformation(String videoID) throws IOException {

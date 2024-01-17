@@ -14,24 +14,30 @@ import org.jsoup.nodes.Document;
 import org.jsoup.parser.Parser;
 import org.jsoup.select.Elements;
 
-import java.io.FileReader;
-import java.io.FileWriter;
-import java.io.IOException;
-import java.io.Reader;
+import java.io.*;
+import java.net.URI;
 import java.net.URL;
 import java.util.List;
 
 public class HandleRssFeed {
+	DeArrow deArrow = new DeArrow();
 	/**
 	 * gets rss feed for further processing
 	 *
-	 * @param url to rss feed
+	 * @param feedUrl to rss feed
 	 * @return SyndFeed
 	 * @throws IOException
 	 * @throws FeedException
 	 */
-	public SyndFeed readFeed(String url) throws IOException, FeedException {
-		return new SyndFeedInput().build(new XmlReader(new URL(url)));
+	public SyndFeed readFeed(String feedUrl) {
+		try {
+			URL url = new URI(feedUrl).toURL();
+			return new SyndFeedInput().build(new XmlReader(url));
+		} catch (Exception e) {
+			e.printStackTrace();
+			System.out.println("ERROR: "+e.getMessage());
+			throw new IllegalArgumentException("Wrong feed provided. Please provide a valid YouTube RSS feed");
+		}
 	}
 
 	/**
@@ -127,5 +133,31 @@ public class HandleRssFeed {
 			}
 		}
 		return null;
+	}
+
+	/**
+	 * create the final feed from url
+	 * @param rssFeedURL
+	 * @throws FeedException
+	 * @throws IOException
+	 */
+	public String createModifiedFeed(String rssFeedURL) throws FeedException, IOException {
+		SyndFeed feed = readFeed(rssFeedURL);
+		for (SyndEntry entry : feed.getEntries()) {
+			// get vidID from entry
+			String videoId = entry.getUri().substring(entry.getUri().lastIndexOf('=') + 1);
+			videoId = videoId.substring(videoId.lastIndexOf(":") + 1);
+			// get info
+			DeArrow.ProcessedInformation processedInformation = deArrow.processInformation(videoId, deArrow.getInitialInformation(videoId));
+			// change rss feed
+			editEntry(entry, processedInformation.getTitle(), processedInformation.getUrl());
+		}
+		// create file
+		writeFeedToFile(feed);
+		// return as String
+		StringWriter writer = new StringWriter();
+		SyndFeedOutput output = new SyndFeedOutput();
+		output.output(feed, writer);
+		return writer.toString();
 	}
 }
