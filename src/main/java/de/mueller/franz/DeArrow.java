@@ -5,19 +5,19 @@ import com.google.gson.Gson;
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
-import java.net.HttpURLConnection;
-import java.net.URL;
-import java.net.URLEncoder;
+import java.net.*;
+import java.nio.charset.StandardCharsets;
 import java.util.List;
 
-// TODO Javadoc
-
+/**
+ * class responsible for all things with the DeArrow api and data formatting
+ */
 public class DeArrow {
 
 	/**
 	 * get DeArrow information
 	 *
-	 * @param videoID
+	 * @param videoID id of the individual video
 	 * @return response as String
 	 * @throws IOException
 	 */
@@ -25,25 +25,18 @@ public class DeArrow {
 		String apiUrl = "https://sponsor.ajay.app/api/branding";
 
 		// Encode the videoID parameter
-		String encodedVideoID = URLEncoder.encode(videoID, "UTF-8");
+		String encodedVideoID = URLEncoder.encode(videoID, StandardCharsets.UTF_8);
 
 		// Construct the URL with query parameters
 		String queryParameters = String.format("?videoID=%s", encodedVideoID);
 		String completeUrl = apiUrl + queryParameters;
 
-		URL url = new URL(completeUrl);
-		HttpURLConnection con = (HttpURLConnection) url.openConnection();
+		// connect to api and return response if successful
+		HttpURLConnection con = initializeConnection(completeUrl);
+		if (con == null) return null;
 
-		// TODO move to Config / separate Object
-		con.setRequestMethod("GET");
-		con.setRequestProperty("Content-Type", "application/json");
-		con.setRequestProperty("Accept", "application/json");
-		// handle everything that's not 200
-		if (con.getResponseCode() != HttpURLConnection.HTTP_OK) {
-			return null;
-		}
 		try (BufferedReader br = new BufferedReader(
-				new InputStreamReader(con.getInputStream(), "utf-8"))) {
+				new InputStreamReader(con.getInputStream(), StandardCharsets.UTF_8))) {
 			StringBuilder response = new StringBuilder();
 			String responseLine;
 			while ((responseLine = br.readLine()) != null) {
@@ -57,23 +50,15 @@ public class DeArrow {
 	 * helper class representing the extracted information
 	 */
 	public static class ProcessedInformation {
-		private String title;
-		private String url;
+		private final String title;
+		private final String url;
 
 		public String getTitle() {
 			return title;
 		}
 
-		public void setTitle(String title) {
-			this.title = title;
-		}
-
 		public String getUrl() {
 			return url;
-		}
-
-		public void setUrl(String url) {
-			this.url = url;
 		}
 
 		public ProcessedInformation(String title, String url) {
@@ -85,7 +70,7 @@ public class DeArrow {
 	/**
 	 * post process information from DeArrow api
 	 *
-	 * @param jsonResponse
+	 * @param jsonResponse api response from DeArrow
 	 * @return title and url as ProcessedInformation (null if not existing)
 	 */
 	public ProcessedInformation processInformation(String videoID, String jsonResponse) throws IOException {
@@ -125,11 +110,12 @@ public class DeArrow {
 		}
 		return new ProcessedInformation(title, url);
 	}
+
 	/**
 	 * fetches thumbnail image
 	 *
-	 * @param videoID
-	 * @param number
+	 * @param videoID id of video in question
+	 * @param number Thumbnail timestamp (DeArrow internal number)
 	 * @return image url or null
 	 * @throws IOException
 	 */
@@ -138,31 +124,32 @@ public class DeArrow {
 		String apiUrl = "https://dearrow-thumb.ajay.app/api/v1/getThumbnail";
 
 		// Encode the videoID parameter
-		String encodedVideoID = URLEncoder.encode(videoID, "UTF-8");
+		String encodedVideoID = URLEncoder.encode(videoID, StandardCharsets.UTF_8);
 
 		// Construct the URL with query parameters
 		String queryParameters = String.format("?videoID=%s&time=%s", encodedVideoID, number);
 		String completeUrl = apiUrl + queryParameters;
-
+		// get api response and return complete url if successful
+		HttpURLConnection con = initializeConnection(completeUrl);
+		if (con == null) return null;
+		else return completeUrl;
+	}
+	/**
+	 * create GET connection to provided url with json as request/ response
+	 * @param completeUrl url you want to connect to (please encode UTF-8)
+	 * @return connection ready to go or null if connection is not ok
+	 * @throws IOException
+	 */
+	private HttpURLConnection initializeConnection(String completeUrl) throws IOException {
 		URL url = new URL(completeUrl);
 		HttpURLConnection con = (HttpURLConnection) url.openConnection();
 		con.setRequestMethod("GET");
 		con.setRequestProperty("Content-Type", "application/json");
 		con.setRequestProperty("Accept", "application/json");
-
-		int responseCode = con.getResponseCode();
-		if (responseCode == HttpURLConnection.HTTP_OK) {
-			return completeUrl;
-		} else return null;
-
-		// no need for receiving and process the image
-		/*try (BufferedReader br = new BufferedReader(
-				new InputStreamReader(con.getInputStream(), "utf-8"))) {
-			StringBuilder response = new StringBuilder();
-			String responseLine;
-			while ((responseLine = br.readLine()) != null) {
-				response.append(responseLine.trim());
-			}
-		}*/
+		// handle everything that's not 200
+		if (con.getResponseCode() != HttpURLConnection.HTTP_OK) {
+			return null;
+		}
+		return con;
 	}
 }

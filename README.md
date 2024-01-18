@@ -1,7 +1,7 @@
 ### Notes:
 
 - Brings DeArrow to RSS
-- Works with invidious and youtube feeds
+- Works with invidious and YouTube feeds
 - not tested in actual feed reader
 
 ### How?
@@ -14,3 +14,5 @@
 
 - write tests
 - create frontend?
+- add insecure mode where you don't request the image and check for a valid return but just pass the url without
+  checking

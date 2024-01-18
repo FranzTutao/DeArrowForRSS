@@ -19,8 +19,9 @@ import java.net.URI;
 import java.net.URL;
 import java.util.List;
 
-// TODO Javadoc
-
+/**
+ * class responsible to do everything RSS feed related
+ */
 public class HandleRssFeed {
 	DeArrow deArrow = new DeArrow();
 
@@ -31,16 +32,14 @@ public class HandleRssFeed {
 	 * @return SyndFeed
 	 * @throws IOException
 	 * @throws FeedException
+	 * @throws FeedException
 	 */
 	public SyndFeed readFeed(String feedUrl) {
 		try {
 			URL url = new URI(feedUrl).toURL();
 			return new SyndFeedInput().build(new XmlReader(url));
 		} catch (Exception e) {
-			e.printStackTrace();
-			System.out.println("ERROR: " + e.getMessage());
-			// TODO throw new Exception("Wrong feed ...: " + e.stackTrace());
-			throw new IllegalArgumentException("Wrong feed provided. Please provide a valid YouTube RSS feed");
+			throw new IllegalArgumentException("Wrong feed provided. Please provide a valid YouTube RSS feed: " + e.getMessage());
 		}
 	}
 
@@ -76,7 +75,7 @@ public class HandleRssFeed {
 	/**
 	 * read feed from file
 	 *
-	 * @param fileName
+	 * @param fileName name of the file or path if not in root folder
 	 * @return SyndFeed
 	 * @throws IOException
 	 * @throws FeedException
@@ -85,7 +84,7 @@ public class HandleRssFeed {
 		return this.readFeed(new FileReader(fileName));
 	}
 
-	public SyndFeed readFeed(Reader content) throws IOException, FeedException {
+	public SyndFeed readFeed(Reader content) throws FeedException {
 		SyndFeedInput input = new SyndFeedInput();
 		return input.build(content);
 	}
@@ -93,8 +92,8 @@ public class HandleRssFeed {
 	/**
 	 * replace url for media:thumbnail element with jdom2
 	 *
-	 * @param entry
-	 * @param newUrl
+	 * @param entry  entry which is changed
+	 * @param newUrl image url you want to change it to
 	 */
 	public void setMediaThumbnailUrl(SyndEntry entry, String newUrl) {
 		// yt and invidious
@@ -123,7 +122,7 @@ public class HandleRssFeed {
 	/**
 	 * get url for media:thumbnail element with jdom2
 	 *
-	 * @param entry
+	 * @param entry entry which is edited
 	 * @return url from media:thumbnail
 	 */
 	public String getMediaThumbnailUrl(SyndEntry entry) {
@@ -142,23 +141,22 @@ public class HandleRssFeed {
 	/**
 	 * create the final feed from url
 	 *
-	 * @param rssFeedURL
+	 * @param rssFeedURL url to the YouTube/ Invidious RSS feed you want to DeArrow
 	 * @throws FeedException
 	 * @throws IOException
 	 */
 	public String createModifiedFeed(String rssFeedURL) throws FeedException, IOException {
 		SyndFeed feed = readFeed(rssFeedURL);
 		for (SyndEntry entry : feed.getEntries()) {
-			// get vidID from entry
-			// TODO Example: url.../...=...:... ->
-			String videoId = entry.getUri().substring(entry.getUri().lastIndexOf('=') + 1); // TODO why?
-			videoId = videoId.substring(videoId.lastIndexOf(":") + 1); // TODO why?
-			// get info
+			// get vidID from entry by formatting the uri ("yt:video:7DKv5H5Frt0" --> "7DKv5H5Frt0")
+			String videoId = entry.getUri();
+			videoId = videoId.substring(videoId.lastIndexOf(":") + 1);
+			// get information (title and thumbnail url)
 			DeArrow.ProcessedInformation processedInformation = deArrow.processInformation(videoId, deArrow.getInitialInformation(videoId));
 			// change rss feed
 			editEntry(entry, processedInformation.getTitle(), processedInformation.getUrl());
 		}
-		// create file
+		// create file if wanted
 		// writeFeedToFile(feed);
 
 		// return as String
