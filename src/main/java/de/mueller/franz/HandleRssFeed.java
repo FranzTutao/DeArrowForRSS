@@ -19,6 +19,8 @@ import java.net.URI;
 import java.net.URL;
 import java.util.List;
 
+// TODO Javadoc
+
 public class HandleRssFeed {
 	DeArrow deArrow = new DeArrow();
 	/**
@@ -36,6 +38,7 @@ public class HandleRssFeed {
 		} catch (Exception e) {
 			e.printStackTrace();
 			System.out.println("ERROR: "+e.getMessage());
+			// TODO throw new Exception("Wrong feed ...: " + e.stackTrace());
 			throw new IllegalArgumentException("Wrong feed provided. Please provide a valid YouTube RSS feed");
 		}
 	}
@@ -145,8 +148,9 @@ public class HandleRssFeed {
 		SyndFeed feed = readFeed(rssFeedURL);
 		for (SyndEntry entry : feed.getEntries()) {
 			// get vidID from entry
-			String videoId = entry.getUri().substring(entry.getUri().lastIndexOf('=') + 1);
-			videoId = videoId.substring(videoId.lastIndexOf(":") + 1);
+			// TODO Example: url.../...=...:... ->
+			String videoId = entry.getUri().substring(entry.getUri().lastIndexOf('=') + 1); // TODO why?
+			videoId = videoId.substring(videoId.lastIndexOf(":") + 1); // TODO why?
 			// get info
 			DeArrow.ProcessedInformation processedInformation = deArrow.processInformation(videoId, deArrow.getInitialInformation(videoId));
 			// change rss feed

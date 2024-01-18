@@ -10,6 +10,7 @@ import static spark.Spark.get;
 import static spark.Spark.internalServerError;
 
 public class Main {
+	// TODO main -> Server
 	public static void main(String[] args) throws IOException, FeedException, URISyntaxException {
 		// DeArrow: https://wiki.sponsor.ajay.app/w/API_Docs/DeArrow
 		// ROME: https://rometools.github.io/rome/
@@ -29,8 +30,8 @@ public class Main {
 		// initialize web server
 		get("/DeArrow/*", (request, response) -> {
 
-			String url = request.splat()[0];
-			url = url.replaceFirst("/", "//");
+			String url = request.splat()[0]; // TODO change to urlParameters
+			url = url.replaceFirst("/", "//"); // TODO why?
 			response.type("text/xml");
 			return handleRssFeed.createModifiedFeed(url);
 			// return url;

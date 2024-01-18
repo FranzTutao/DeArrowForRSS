@@ -10,6 +10,8 @@ import java.net.URL;
 import java.net.URLEncoder;
 import java.util.List;
 
+// TODO Javadoc
+
 public class DeArrow {
 
 	/**
@@ -31,6 +33,8 @@ public class DeArrow {
 
 		URL url = new URL(completeUrl);
 		HttpURLConnection con = (HttpURLConnection) url.openConnection();
+
+		// TODO move to Config / separate Object
 		con.setRequestMethod("GET");
 		con.setRequestProperty("Content-Type", "application/json");
 		con.setRequestProperty("Accept", "application/json");
