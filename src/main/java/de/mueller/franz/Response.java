@@ -4,6 +4,9 @@ import com.google.gson.annotations.SerializedName;
 
 import java.util.List;
 
+/**
+ * helper class to pass Json and use in java with gson
+ */
 public class Response {
 	@SerializedName("titles")
 	private List<Title> titles;

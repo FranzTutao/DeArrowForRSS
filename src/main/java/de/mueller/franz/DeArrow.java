@@ -117,7 +117,7 @@ public class DeArrow {
 				double number = response.getVideoDuration() * response.getRandomTime();
 				url = getImageInformation(videoID, number);
 			} else {
-				// probably gg wp, could try using InnerTube, return null, fuck off, default to original thumbnail
+				// InnerTube failed us
 				url = null;
 			}
 		} else {

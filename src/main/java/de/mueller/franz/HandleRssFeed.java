@@ -23,6 +23,7 @@ import java.util.List;
 
 public class HandleRssFeed {
 	DeArrow deArrow = new DeArrow();
+
 	/**
 	 * gets rss feed for further processing
 	 *
@@ -37,7 +38,7 @@ public class HandleRssFeed {
 			return new SyndFeedInput().build(new XmlReader(url));
 		} catch (Exception e) {
 			e.printStackTrace();
-			System.out.println("ERROR: "+e.getMessage());
+			System.out.println("ERROR: " + e.getMessage());
 			// TODO throw new Exception("Wrong feed ...: " + e.stackTrace());
 			throw new IllegalArgumentException("Wrong feed provided. Please provide a valid YouTube RSS feed");
 		}
@@ -140,6 +141,7 @@ public class HandleRssFeed {
 
 	/**
 	 * create the final feed from url
+	 *
 	 * @param rssFeedURL
 	 * @throws FeedException
 	 * @throws IOException
@@ -157,7 +159,8 @@ public class HandleRssFeed {
 			editEntry(entry, processedInformation.getTitle(), processedInformation.getUrl());
 		}
 		// create file
-		writeFeedToFile(feed);
+		// writeFeedToFile(feed);
+
 		// return as String
 		StringWriter writer = new StringWriter();
 		SyndFeedOutput output = new SyndFeedOutput();
