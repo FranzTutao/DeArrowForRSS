@@ -5,7 +5,9 @@ import com.google.gson.Gson;
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
-import java.net.*;
+import java.net.HttpURLConnection;
+import java.net.URL;
+import java.net.URLEncoder;
 import java.nio.charset.StandardCharsets;
 import java.util.List;
 
@@ -77,36 +79,48 @@ public class DeArrow {
 		// convert json
 		Gson gson = new Gson();
 		Response response = gson.fromJson(jsonResponse, Response.class);
+		String title = "";
+		String url = "";
 		if (response == null) return new ProcessedInformation(null, null);
-		List<Response.Title> titles = response.getTitles();
-		List<Response.Thumbnail> thumbnails = response.getThumbnails();
-		// check if title is valid
-		String title;
-		String url;
-		Response.Title firstTitle = titles.getFirst();
-		if (firstTitle.isLocked() || firstTitle.getVotes() >= 0) {
-			// title is good
-			title = firstTitle.getTitle();
-		} else {
+		if (response.getTitles().isEmpty() || response.getTitles() == null) {
 			title = null;
 		}
-		// find valid thumbnail
-		Response.Thumbnail firstThumbnail = thumbnails.getFirst();
-		if (firstThumbnail.isLocked() || firstThumbnail.getVotes() >= 0) {
-			// thumbnail is good
-			// check for timestamp
-			if (firstThumbnail.getTimestamp() != null) {
-				url = getImageInformation(videoID, firstThumbnail.getTimestamp());
-				// check for video duration
-			} else if (response.getVideoDuration() != null) {
-				double number = response.getVideoDuration() * response.getRandomTime();
-				url = getImageInformation(videoID, number);
+		if (response.getThumbnails().isEmpty() || response.getThumbnails() == null) {
+			url = null;
+		}
+		if (title != null) {
+			List<Response.Title> titles = response.getTitles();
+			// check if title is valid
+			Response.Title firstTitle = titles.getFirst();
+			if (firstTitle.isLocked() || firstTitle.getVotes() >= 0) {
+				// title is good
+				title = firstTitle.getTitle();
 			} else {
-				// InnerTube failed us
+				title = null;
+			}
+		}
+		if (url != null) {
+			List<Response.Thumbnail> thumbnails = response.getThumbnails();
+
+			// find valid thumbnail
+			Response.Thumbnail firstThumbnail = thumbnails.getFirst();
+
+			if (firstThumbnail.isLocked() || firstThumbnail.getVotes() >= 0) {
+				// thumbnail is good
+				// check for timestamp
+				if (firstThumbnail.getTimestamp() != null) {
+					url = getImageInformation(videoID, firstThumbnail.getTimestamp());
+					// check for video duration
+				} else if (response.getVideoDuration() != null) {
+					double number = response.getVideoDuration() * response.getRandomTime();
+					url = getImageInformation(videoID, number);
+				} else {
+					// InnerTube failed us
+					url = null;
+				}
+			} else {
 				url = null;
 			}
-		} else {
-			url = null;
 		}
 		return new ProcessedInformation(title, url);
 	}
@@ -115,7 +129,7 @@ public class DeArrow {
 	 * fetches thumbnail image
 	 *
 	 * @param videoID id of video in question
-	 * @param number Thumbnail timestamp (DeArrow internal number)
+	 * @param number  Thumbnail timestamp (DeArrow internal number)
 	 * @return image url or null
 	 * @throws IOException
 	 */
@@ -134,8 +148,10 @@ public class DeArrow {
 		if (con == null) return null;
 		else return completeUrl;
 	}
+
 	/**
 	 * create GET connection to provided url with json as request/ response
+	 *
 	 * @param completeUrl url you want to connect to (please encode UTF-8)
 	 * @return connection ready to go or null if connection is not ok
 	 * @throws IOException
